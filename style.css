@@ -2,9 +2,9 @@ body {
   font-family: sans-serif;
 }
 #h10 {
-  align: center;
+  text-align: center;
   background-color: #d0d626;
-  border-color: black;
+  border: 3px solid black;
 }
   
     
