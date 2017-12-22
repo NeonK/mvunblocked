@@ -14,11 +14,29 @@ p {
 #div0 {
   background-color: #d0d626;
   border: 3px solid white;
-}
-ul li {
-  text-decoration: none;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   background-color: #d0d626;
 }
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; 
+  }
+li a:hover:not(.active) {
+  background-color: #6d7014;
+  }
+.active {
+  bacground-color: #26ad4a;
+  }
   
   
     
